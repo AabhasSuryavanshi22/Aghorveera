@@ -1,0 +1,8 @@
+{
+  "name": "Aghorveera",
+  "description": "Aghorveera Military Stress Monitoring \u0026 Healthcare Portal — 15-question validated clinical stress assessment, calculated weekly sleep analytics, and medical directives for army officers and medical personnel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

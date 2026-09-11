@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "UserProfile": {
+      "collection": "users",
+      "fields": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string" },
+        "rank": { "type": "string" },
+        "unit": { "type": "string" },
+        "serviceNumber": { "type": "string" }
+      }
+    },
+    "ArmyOfficer": {
+      "collection": "officers",
+      "fields": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "rank": { "type": "string" },
+        "unit": { "type": "string" },
+        "serviceNumber": { "type": "string" },
+        "status": { "type": "string" },
+        "currentStressScore": { "type": "number" },
+        "zone": { "type": "string" },
+        "sleepHoursAvg": { "type": "number" }
+      }
+    }
+  }
+}
